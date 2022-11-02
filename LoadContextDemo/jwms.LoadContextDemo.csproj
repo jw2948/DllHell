@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jwms.LoadContextDemo.StaticFoo" Version="1.0.2" />
+  </ItemGroup>
+
+  <!--
+    <PackageReference Include="jwms.LoadContextDemo.FooUser1" Version="1.0.0" />
+    <PackageReference Include="jwms.LoadContextDemo.StaticFoo" Version="1.0.2" />
+  -->
+
+  <ItemGroup>
+    <ProjectReference Include="..\FooUser1\jwms.LoadContextDemo.FooUser1.csproj" />
+    <ProjectReference Include="..\StaticFoo\jwms.LoadContextDemo.StaticFoo.csproj" />
+  </ItemGroup>
+
+</Project>

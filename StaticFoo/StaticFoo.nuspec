@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$Id$</id>
+    <version>$Version$</version>
+    <title>LoadContext StaticFoo</title>
+    <authors>jwms</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>StaticFoo.</description>
+    <releaseNotes>Initial version.</releaseNotes>
+    <copyright>copyright 2019</copyright>
+  </metadata>
+  <files>
+    <file src="D:\workspace\VersionConflict\StaticFoo\bin\Debug\netcoreapp3.1\jwms.LoadContextDemo.StaticFoo.dll" target="lib\netcoreapp3.1" />
+    <file src="D:\workspace\VersionConflict\StaticFoo\bin\Debug\netcoreapp3.1\jwms.LoadContextDemo.StaticFoo.pdb" target="lib\netcoreapp3.1" />
+  </files>
+</package>
