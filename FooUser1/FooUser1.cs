@@ -8,11 +8,13 @@ namespace jwms.LoadContextDemo
     {
         static FooUser1()
         {
-            Console.WriteLine("FooUser1 ctor, AssemblyLoadContext: {0}", AssemblyLoadContext.GetLoadContext(typeof(FooUser1).Assembly));
+            // 3. Static class ctor is actually called twice.
+            //Console.WriteLine("FooUser1 ctor");
         }
         public static void PrintFooValue()
         {
-            Console.WriteLine("FooUser1 AssemblyLoadContext: {0}", AssemblyLoadContext.GetLoadContext(typeof(FooUser1).Assembly));
+            // Check which assembly this type is located in.
+            //Console.WriteLine("FooUser1 AssemblyLoadContext: {0}", AssemblyLoadContext.GetLoadContext(typeof(FooUser1).Assembly));
             StaticFoo.PrintValue();
         }
     }
